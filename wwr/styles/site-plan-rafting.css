@@ -1,12 +1,12 @@
-@import url('https://fonts.google.com/specimen/Climate+Crisis');
+@import url('https://fonts.google.com/specimen/Roboto');
 :root {
     --primary-color: #cee5f2;
     --secondary-color: #accbe1;
     --accent1-color: #7c98b3;
     --accent2-color: #637081;
 
-    --heading-font: '____', Climate+Crisis;
-    --paragraph-font: '____', Climate+Crisis;
+    --heading-font: '____', "Roboto";
+    --paragraph-font: '____', "Roboto";
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
