@@ -25,3 +25,18 @@ h1, h2, h3, h4, h5, h6 {
     font-family:var(--paragraph-font);
     color: var(--accent1-color);
 }
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
