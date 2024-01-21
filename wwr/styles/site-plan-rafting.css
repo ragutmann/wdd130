@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Climate+Crisis);
 :root {
     --primary-color: #cee5f2;
     --secondary-color: #accbe1;
@@ -15,5 +15,5 @@
 }
 
 body {
-    font-family: 'Trebuchet MS'
+    font-family:'climate+Crises'
 }
