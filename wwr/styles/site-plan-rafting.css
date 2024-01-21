@@ -10,7 +10,7 @@
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
-    --nav-hover-link-color:var(--accent1-color)
+    --nav-hover-link-color:var(--accent1-color);
     --nav-hover-background-color:var(--accent2-color);
 
 }
@@ -53,5 +53,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-    color:var(--nav-hover-link-color)
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
