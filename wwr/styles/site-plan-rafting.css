@@ -5,15 +5,18 @@
     --accent1-color: #7c98b3;
     --accent2-color: #637081;
 
-    --heading-font: '____', Montserrat;
-    --paragraph-font: '____', Montserrat;
+    --heading-font: '____', Climate+Crisis;
+    --paragraph-font: '____', Climate+Crisis;
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
     --nav-hover-link-color:var(--accent1-color)
-    --nav-hover-background-color:var(--accent2-color)
+    --nav-hover-background-color:var(--accent2-color);
+
 }
 
 main {
-    font-family:'climate+Crises'
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
