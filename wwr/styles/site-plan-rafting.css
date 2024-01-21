@@ -15,7 +15,5 @@
 }
 
 body {
-    f___:var(--accent1-color);
-    m___: ___;
-    p___: ___;
+    font-family: 'Times New Roman', Times, serif;
 }
