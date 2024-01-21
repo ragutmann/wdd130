@@ -13,3 +13,9 @@
     --nav-hover-link-color:var(--accent1-color)
     --nav-hover-background-color:var(--accent2-color)
 }
+
+body {
+    f___:var(--accent1-color);
+    m___: ___;
+    p___: ___;
+}
