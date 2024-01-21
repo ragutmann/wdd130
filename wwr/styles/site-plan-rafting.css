@@ -16,13 +16,13 @@
 }
 
 body {
-    font-family:var(--paragraph-font);
+    font-family: 'Roboto';
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--paragraph-font);
+    font-family: 'Roboto';
     color: var(--accent1-color);
 }
 
