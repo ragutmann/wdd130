@@ -1,12 +1,13 @@
-@import url('C:\Users\rafag\Downloads\Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 :root {
     --primary-color: #cee5f2;
     --secondary-color: #accbe1;
     --accent1-color: #7c98b3;
     --accent2-color: #637081;
 
-    --heading-font: '____', "Roboto";
-    --paragraph-font: '____', "Roboto";
+    --heading-font: '____', Roboto;
+    --paragraph-font: '____', Roboto;
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
@@ -16,13 +17,13 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto';
+    font-family:var(--paragraph-font);
     color: var(--accent1-color);
 }
 
