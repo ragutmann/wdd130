@@ -6,8 +6,8 @@
     --accent1-color: #7c98b3;
     --accent2-color: #637081;
 
-    --heading-font: '____', Roboto;
-    --paragraph-font: '____', Roboto;
+    --heading-font: '', 'Roboto';
+    --paragraph-font: '', 'Roboto';
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
