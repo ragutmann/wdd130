@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
 }
 
@@ -53,10 +53,4 @@ aside {
 
 main img {
     float: right;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
 }
