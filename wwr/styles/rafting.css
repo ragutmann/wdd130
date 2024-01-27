@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+:root {
+    --primary-color: #cee5f2;
+    --secondary-color: #accbe1;
+    --accent1-color: #7c98b3;
+    --accent2-color: #637081;
+
+    --heading-font: 'Roboto';
+    --paragraph-font: 'Roboto';
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--secondary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--accent2-color);
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
