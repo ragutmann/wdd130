@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 
 :root {
     --primary-color: #cee5f2;
@@ -6,8 +6,8 @@
     --accent1-color: #7c98b3;
     --accent2-color: #637081;
 
-    --heading-font: 'Roboto';
-    --paragraph-font: 'Roboto';
+    --heading-font: 'Kanit';
+    --paragraph-font: 'Kanit';
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--secondary-color);
@@ -18,7 +18,55 @@
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
 
+}
+
+section img {
+    display: block;
+    width: 70%;
+    height: auto;
+    
+}
+
+.sociallinks img {
+    display: inline-block;
+    width: 3%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    color: white;
+    padding: 50px;
+    background-color: black;
+    opacity: 65%;
+    width: 62.8%;
+    height: auto;
+    text-align: center;
+    font-family:var(--heading-font);
+    
+
+}
+
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color:black;
+}
+
+h2 {
+    font-family:var(--heading-font);
+    color: var(--accent1-color);
+}
+
+p {
+    font-family:var(--heading-font);
+    color: black;
 }
