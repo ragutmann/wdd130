@@ -37,6 +37,8 @@ nav a {
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
+    padding: 1px;
 }
 
 
@@ -55,13 +57,7 @@ footer {
 
 /*Class Selectors*/
 
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
+
 
 aside {
     width: 20em;
@@ -75,12 +71,10 @@ main img {
     float: right;
 }
 
-aside {
-    position: relative;
-}
+
 
 aside h2 {
-    position: absolute;
+    position: relative;
 }
 
 header, footer, .grid {
