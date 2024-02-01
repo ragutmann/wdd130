@@ -9,7 +9,6 @@
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -47,7 +46,9 @@ main img {
     height: auto;
 }
 
-p {padding: 0;}
+p {
+    position: relative;
+}
 
 footer {
     margin-top: 15px;
