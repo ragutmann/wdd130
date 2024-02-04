@@ -24,7 +24,7 @@
 }
 
 section img {
-    display: block;
+    display: grid;
     max-width: 220px;
     max-height: 150px;
     
@@ -73,8 +73,8 @@ p {
 
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    flex-flow: nowrap;
     padding: 5px;
     max-width: 220px;
     margin: auto;
@@ -114,4 +114,5 @@ nav {
 	text-decoration: none;
 	font-weight: 1000;
 }
+
 
