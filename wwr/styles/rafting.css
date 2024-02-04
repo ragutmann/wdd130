@@ -24,9 +24,8 @@
 }
 
 section img {
-    display: block;
-    width: 70%;
-    height: auto;
+    max-width: 220px;
+    max-height: 150px;
     
 }
 
@@ -71,3 +70,19 @@ p {
     color: black;
 }
 
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller Kanit;
+    padding: 30px;
+    text-align: center;
+}
