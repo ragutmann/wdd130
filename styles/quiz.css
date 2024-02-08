@@ -44,4 +44,42 @@ fieldset {
     padding: 1rem;
 }
 
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
 
+label, input, button, select, textarea {
+    font-family: Kanit;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input [type="number"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
