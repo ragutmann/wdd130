@@ -115,4 +115,11 @@ nav {
 	font-weight: 1000;
 }
 
+h1 {
+    color: black;
+    width: 62.8%;
+    height: auto;
+    font-family:var(--heading-font);
+}
+
 
