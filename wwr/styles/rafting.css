@@ -47,7 +47,7 @@ section img {
     height: auto;
     text-align: center;
     font-family:var(--heading-font);
-    
+     
 
 }
 
@@ -89,7 +89,6 @@ figcaption {
 }
 
 header {
-	margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
