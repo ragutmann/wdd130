@@ -177,4 +177,27 @@ button:hover {
     background-color: darkgreen;
 }
 
+.cls-trips-table table th,td {
+  border: 1px solid var(--accent2-color);
+  padding: 8px 10px;
+}
 
+.cls-trips-table table th {
+  color: var(--accent2-color);
+}
+
+.cls-trips-table table tbody > tr:nth-of-type(even) {
+    background-color: rgb(123 204 197 / 50%);
+}
+
+.cls-trips-table table thead {
+    background-color: rgb(64 35 26 / 80%);
+}
+
+.cls-trips-table table caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+  font-size: small;
+  color: var(--secondary-color);
+}
