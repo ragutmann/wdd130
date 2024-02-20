@@ -180,18 +180,15 @@ button:hover {
 .cls-trips-table table th,td {
   border: 1px solid var(--accent2-color);
   padding: 8px 10px;
+  text-align: center;
 }
 
 .cls-trips-table table th {
   color: var(--accent2-color);
 }
 
-.cls-trips-table table tbody > tr:nth-of-type(even) {
-    background-color: rgb(123 204 197 / 50%);
-}
-
 .cls-trips-table table thead {
-    background-color: rgb(64 35 26 / 80%);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .cls-trips-table table caption {
