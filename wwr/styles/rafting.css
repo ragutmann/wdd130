@@ -198,3 +198,19 @@ button:hover {
   font-size: small;
   color: var(--secondary-color);
 }
+
+.cls-position-absolute1 img {
+    display: block;
+    width: 70%;
+    height: auto;
+
+}
+
+.cls-position-absolute2 img {
+    display: block;
+    width: 20%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
